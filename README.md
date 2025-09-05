@@ -1,7 +1,7 @@
 🖥️ Operating System Lab
 
 <p align="center">
-  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="300" />
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="300" height="200" />
 </p>
 
 
@@ -13,7 +13,6 @@ It’s basically my lab work collection while learning about how operating syste
 
 📂 What’s Inside
 - laboratory activities
-- Practice codes in C / C++
   
 ---
 
