@@ -1,7 +1,7 @@
 🖥️ Operating System Lab
 
 <p align="center">
-  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="300" height="200" />
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="250" height="180" />
 </p>
 
 
