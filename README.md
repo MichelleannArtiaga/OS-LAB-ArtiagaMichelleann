@@ -5,6 +5,12 @@
 </p>
 
 
+<p align="center">
+  <img src="https://media.giphy.com/media/26BRyql7J3iOx875u/giphy.gif" width="600"/>
+</p>
+
+
+
 
 Hi! This repo is where I keep all my activities, codes, and notes for my Operating System subject.  
 It’s basically my lab work collection while learning about how operating systems work under the hood.
