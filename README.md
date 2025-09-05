@@ -1,6 +1,9 @@
 🖥️ Operating System Lab
 
-![cute typing cat](https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="300" />
+</p>
+
 
 
 Hi! This repo is where I keep all my activities, codes, and notes for my Operating System subject.  
