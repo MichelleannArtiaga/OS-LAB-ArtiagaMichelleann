@@ -7,6 +7,7 @@ It’s basically my lab work collection while learning about how operating syste
 
 📂 What’s Inside
 - laboratory activities
+- Practice codes in C / C++
   
 ---
 
