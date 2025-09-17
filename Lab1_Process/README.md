@@ -20,9 +20,9 @@ Task D – Managing Processes in PowerShell with a command "Get-Process child_ec
 Stop-Process -Id <PID>"
 <img width="1266" height="208" alt="image" src="https://github.com/user-attachments/assets/a6ab15d5-7ecc-41b6-9e66-6ee490f43d3b" />
 
-before the termination 
+Before the termination 
 <img width="1479" height="295" alt="image" src="https://github.com/user-attachments/assets/ddfbb63f-8a52-4b66-904d-1b4780e75b58" />
 
 
-after
+After Termination
 <img width="1540" height="134" alt="image" src="https://github.com/user-attachments/assets/c121b32f-8bef-4351-ba99-f5223f5ab33d" />
