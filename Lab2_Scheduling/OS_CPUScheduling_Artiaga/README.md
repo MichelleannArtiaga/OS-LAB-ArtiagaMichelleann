@@ -27,3 +27,23 @@ From your terminal (inside the project root):
 g++ src/fcfs.cpp -o output/fcfs.exe
 g++ src/sjf.cpp -o output/sjf.exe
 g++ src/rr.cpp -o output/rr.exe
+
+
+## 🖥️ Sample Outputs
+
+### 🔹 FCFS Output
+![FCFS Screenshot](Screenshots/FCFS.jpg)
+
+### 🔹 SJF Output
+![SJF Screenshot](Screenshots/SJF.jpg)
+
+### 🔹 RR Output
+![RR Screenshot](Screenshots/RR.jpg)
+
+---
+
+## 📊 Gantt Charts
+
+### 🕐 Gantt Chart (FCFS)
+
+
