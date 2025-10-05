@@ -36,7 +36,7 @@ Command: `output/fcfs.exe`
 Command: `output/sjf.exe`
 
 <p align="center">
-  <img width="800" alt="SJF Output" src="https://github.com/user-attachments/assets/your-sjf-image-id.jpg" />
+ <img width="800" alt="FCFS Output" src="Screenshoot/SJF.jpg" /> 
 </p>
 
 ---
@@ -56,6 +56,7 @@ From your terminal (inside the project root):
 g++ src/fcfs.cpp -o output/fcfs.exe
 g++ src/sjf.cpp -o output/sjf.exe
 g++ src/rr.cpp -o output/rr.exe
+
 
 
 
