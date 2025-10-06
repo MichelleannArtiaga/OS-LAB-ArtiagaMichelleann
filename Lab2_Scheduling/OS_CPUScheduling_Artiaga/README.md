@@ -54,17 +54,10 @@ Command: `output/rr.exe`
 
 Grant Charts:
 
-FCFS
-| P1 | P2 | P3 |
-0    5    8    16
+<p align="center">
+ <img width="800" alt="FCFS Output" src="Screenshoot/GRANTCHART.jpg" /> 
+</p>
 
-SJF
-| P1 | P2 | P3 |
-0    5    8    16
-
-RR (Quantum = 2)
-| P1 | P2 | P3 | P1 | P3 | P3 |
-0    3    6    9    11   14   16
 
 
 
