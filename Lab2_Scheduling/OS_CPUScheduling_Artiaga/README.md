@@ -32,7 +32,7 @@ This ensures fair CPU sharing among processes and reduces starvation.
 
 **CPU Scheduling Outputs**
 
-** FCFS (First Come, First Serve)**
+**FCFS (First Come, First Serve)**
 Command: `output/fcfs.exe`
 
 <p align="center">
@@ -62,6 +62,7 @@ Command: `output/rr.exe`
 <p align="center">
  <img width="800" alt="FCFS Output" src="Screenshoot/GRANTCHART.jpg" /> 
 </p>
+
 
 
 
