@@ -1,10 +1,11 @@
 <h1 align="center">CPU Scheduling Algorithms — OS Project</h1>
 
 
-This project is written in C++ and demonstrates the implementation of CPU scheduling algorithms.
-1.FCFS (First Come First Serve)
-2.SJF (Shortest Job First — Non-preemptive)
-3.RR (Round Robin)
+This project is written in C++ and demonstrates the implementation of CPU scheduling algorithms.  
+
+1. **FCFS (First Come First Serve)**
+2. **SJF (Shortest Job First — Non-preemptive)**
+3. **RR (Round Robin)**
 
 Each algorithm computes Completion Time (CT), Turnaround Time (TAT = CT – AT), Waiting Time (WT = TAT – BT)
 and displaysI nput and Output Tables, Average TAT and WT and a clean, text-based Gantt Chart.
@@ -61,6 +62,7 @@ Command: `output/rr.exe`
 <p align="center">
  <img width="800" alt="FCFS Output" src="Screenshoot/GRANTCHART.jpg" /> 
 </p>
+
 
 
 
