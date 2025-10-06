@@ -11,7 +11,7 @@ and displaysI nput and Output Tables, Average TAT and WT and a clean, text-based
 
 Algorithm Explanations:
 
-FCFS (First Come, First Serve)
+**FCFS (First Come, First Serve)**
 The First Come, First Serve (FCFS) algorithm executes processes in the order they arrive.
 The first process to arrive is executed first and runs until completion.
 It is simple to implement but can lead to high waiting times if an early process has a long burst time.
@@ -58,6 +58,7 @@ Grant Charts:
 <p align="center">
  <img width="800" alt="FCFS Output" src="Screenshoot/GRANTCHART.jpg" /> 
 </p>
+
 
 
 
