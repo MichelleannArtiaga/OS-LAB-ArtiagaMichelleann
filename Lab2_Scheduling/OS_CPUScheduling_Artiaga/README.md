@@ -1,4 +1,5 @@
- CPU Scheduling Algorithms — OS Project
+<h1 align="center">CPU Scheduling Algorithms — OS Project</h1>
+
 
 This project is written in C++ and demonstrates the implementation of CPU scheduling algorithms.
 1.FCFS (First Come First Serve)
@@ -57,6 +58,7 @@ Grant Charts:
 <p align="center">
  <img width="800" alt="FCFS Output" src="Screenshoot/GRANTCHART.jpg" /> 
 </p>
+
 
 
 
