@@ -1,29 +1,33 @@
-# 🧠 CPU Scheduling Algorithms — OS Project
+ CPU Scheduling Algorithms — OS Project
 
-This project demonstrates three classic **CPU Scheduling Algorithms** implemented in **C++**:
+This project is written in C++ and demonstrates the implementation of CPU scheduling algorithms.
+1.FCFS (First Come First Serve)
+2.SJF (Shortest Job First — Non-preemptive)
+3.RR (Round Robin)
 
-- **FCFS (First Come First Serve)**
-- **SJF (Shortest Job First — Non-preemptive)**
-- **RR (Round Robin)**
+Each algorithm computes Completion Time (CT), Turnaround Time (TAT = CT – AT), Waiting Time (WT = TAT – BT)
+and displaysI nput and Output Tables, Average TAT and WT and a clean, text-based Gantt Chart.
 
-Each algorithm calculates:
-- **Completion Time (CT)**
-- **Turnaround Time (TAT)**
-- **Waiting Time (WT)**
+Algorithm Explanations:
 
-And displays:
-- Input and output tables  
-- Average TAT & WT  
-- A clean, text-based **Gantt Chart**
+FCFS (First Come, First Serve)
+The First Come, First Serve (FCFS) algorithm executes processes in the order they arrive.
+The first process to arrive is executed first and runs until completion.
+It is simple to implement but can lead to high waiting times if an early process has a long burst time.
 
----
+SJF (Shortest Job First — Non-Preemptive)
+The Shortest Job First (SJF) algorithm selects the process with the shortest burst time among the available processes.
+Once a process starts executing, it runs until it completes.
+It provides a lower average waiting time but requires knowledge of the burst times beforehand.
 
-## ⚙️ How to Compile and Run
+RR (Round Robin)
+The Round Robin (RR) algorithm assigns each process a fixed time quantum (e.g., 2 or 3 units).
+Each process executes for at most one quantum before moving to the back of the ready queue if unfinished.
+This ensures fair CPU sharing among processes and reduces starvation.
 
+CPU Scheduling Outputs
 
-## 🧮 CPU Scheduling Outputs
-
-### 🕐 FCFS (First Come, First Serve)
+ FCFS (First Come, First Serve)
 Command: `output/fcfs.exe`
 
 <p align="center">
@@ -32,7 +36,7 @@ Command: `output/fcfs.exe`
 
 ---
 
-### ⚡ SJF (Shortest Job First – Non-Preemptive)
+ SJF (Shortest Job First – Non-Preemptive)
 Command: `output/sjf.exe`
 
 <p align="center">
@@ -41,21 +45,27 @@ Command: `output/sjf.exe`
 
 ---
 
-### 🔁 Round Robin (RR)
+ Round Robin (RR)
 Command: `output/rr.exe`
 
 <p align="center">
  <img width="800" alt="FCFS Output" src="Screenshoot/RR.jpg" /> 
 </p>
 
+Grant Charts:
 
-### 1️⃣ Compile
-From your terminal (inside the project root):
+FCFS
+| P1 | P2 | P3 |
+0    5    8    16
 
-```bash
-g++ src/fcfs.cpp -o output/fcfs.exe
-g++ src/sjf.cpp -o output/sjf.exe
-g++ src/rr.cpp -o output/rr.exe
+SJF
+| P1 | P2 | P3 |
+0    5    8    16
+
+RR (Quantum = 2)
+| P1 | P2 | P3 | P1 | P3 | P3 |
+0    3    6    9    11   14   16
+
 
 
 
